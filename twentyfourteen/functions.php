@@ -545,3 +545,54 @@ require get_template_directory() . '/inc/customizer.php';
 if ( ! class_exists( 'Featured_Content' ) && 'plugins.php' !== $GLOBALS['pagenow'] ) {
 	require get_template_directory() . '/inc/featured-content.php';
 }
+
+/*YELLOW-ERP*/
+add_filter('bwp_gxs_external_sitemaps', 'my_external_sitemaps');
+function my_external_sitemaps()
+{
+    return array(
+        array('location' => home_url('uploads/helppages1.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages2.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages3.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages4.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages5.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages6.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages7.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages8.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages9.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages10.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages11.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages12.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages13.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages14.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages15.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages16.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages17.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages18.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages19.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages20.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages21.xml'),'lastmod'  => '2016-04-03'),
+	    array('location' => home_url('uploads/helppages1ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages2ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages3ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages4ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages5ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages6ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages7ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages8ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages9ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages10ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages11ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages12ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages13ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages14ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages15ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages16ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages17ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages18ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages19ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages20ru.xml'),'lastmod'  => '2016-04-03'),
+        array('location' => home_url('uploads/helppages21ru.xml'),'lastmod'  => '2016-04-03'),
+		array('location' => home_url('uploads/archive_pages.xml'),'lastmod'  => '2016-11-20')
+    );
+}

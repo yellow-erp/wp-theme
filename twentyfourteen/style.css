@@ -820,7 +820,7 @@ span + .edit-link:before,
 
 .site {
 	background-color: #fff;
-	max-width: 1260px;
+	/* max-width: 1260px; YERP*/
 	position: relative;
 }
 
@@ -847,7 +847,7 @@ span + .edit-link:before,
 
 .site-header {
 	background-color: #000;
-	max-width: 1260px;
+	/* max-width: 1260px; YERP*/
 	position: relative;
 	width: 100%;
 	z-index: 4;
@@ -1055,7 +1055,7 @@ span + .edit-link:before,
 
 .hentry {
 	margin: 0 auto 48px;
-	max-width: 672px;
+	/* max-width: 672px; YERP*/
 }
 
 .site-content .entry-header,
@@ -1064,7 +1064,7 @@ span + .edit-link:before,
 .site-content .entry-meta,
 .page-content {
 	margin: 0 auto;
-	max-width: 474px;
+	/* max-width: 474px; YERP*/
 }
 
 .page-content {
@@ -1908,7 +1908,7 @@ a.post-thumbnail:hover {
 
 .comments-area {
 	margin: 48px auto;
-	max-width: 474px;
+	/* max-width: 474px; YERP*/
 	padding: 0 10px;
 }
 
@@ -3774,7 +3774,8 @@ a.post-thumbnail:hover {
 
 	.site-description {
 		display: block;
-		margin: 0 0 18px;
+		/* margin: 0 0 18px; YERP*/
+		margin: 0 0 5px; /*YERP*/
 	}
 
 	.site-description:empty {
