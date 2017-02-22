@@ -20,7 +20,7 @@
 				<!--<?php do_action( 'twentyfourteen_credits' ); ?>
 				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfourteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfourteen' ), 'WordPress' ); ?></a>
 				-->
-				
+				<div>Copyright © 2013-2017 Yellow ERP Inc. All rights reserved. Reproduction in whole or in part in any form or medium without express written permission of Yellow ERP Inc. is prohibited.<br/> Some names and products listed are the registered trademarks of their respective owners.</div>				
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
